@@ -1,0 +1,69 @@
+// @import 'main.js'
+
+let kHelperAppName = "Sketch Plugin Manager.app"
+let kPluginsFolder = "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
+
+function showManager(context) {
+    debug(function() {
+        let scriptPath = context.scriptPath
+        runApp(kHelperAppName, context.scriptPath, null)
+    })
+}
+
+function checkForUpdates(context) {
+    debug(function() {
+        let scriptPath = context.scriptPath,
+            args = [
+                "-check-for-updates", "true",
+                "-always-alert", "true"
+            ]
+        runApp(kHelperAppName, context.scriptPath, args)
+    })
+}
+
+function startup(context) {
+    debug(function() {
+        log(context)
+        // let scriptPath = context.scriptPath,
+        //     args = [
+        //         "-check-for-updates", "true",
+        //         "-always-alert", "false"
+        //     ]
+        // runApp(kHelperAppName, context.scriptPath, args)
+    })
+}
+
+function runApp(appName, scriptPath, args) {
+    let scriptFolder = scriptPath.stringByDeletingLastPathComponent(),
+        appPath = scriptFolder.stringByAppendingPathComponent(appName),
+        appUrl = [NSURL fileURLWithPath: appPath.stringByExpandingTildeInPath()]
+
+    // Point to plugin directory this plugin is installed in
+    var updatedArgs = [
+        "-plugin-dir", kPluginsFolder,
+    ]
+    if (args != null) {
+        updatedArgs = updatedArgs.concat(args)
+    }
+
+    let options = { "NSWorkspaceLaunchConfigurationArguments": updatedArgs }
+
+    return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
+}
+
+function debug(callback) {
+    try {
+        callback()
+    } catch(e) {
+		if (e != null) { // Null error means plugin was exited without error
+			log(e)
+			alert(e, "Sketch Plugin Manager Error")
+		}
+	}
+}
+
+function alert(msg, title) {
+	title = title || "Alert"
+	var app = NSApplication.sharedApplication()
+    app.displayDialog_withTitle(msg, title)
+}

@@ -1,0 +1,38 @@
+{
+  "name" : "Sketch Plugin Manager",
+  "author" : "Mel Ludowise",
+  "homepage": "",
+  "bundleVersion": 1,
+  "identifier" : "com.mludowise.sketchpluginmanager",
+  "version" : 0.1,
+  "compatibleVersion": 3,
+
+  "commands" : [
+    {
+      "script" : "main.cocoascript",
+      "handler" : "showManager",
+      "name" : "Plugin Manager",
+      "identifier" : "show manager"
+    },
+    {
+      "script" : "main.cocoascript",
+      "handler" : "checkForUpdates",
+      "name" : "Check For Updates",
+      "identifier" : "check for updates"
+    },
+    {
+      "script" : "main.js",
+      "handlers" : {
+        "actions" : {
+           "Startup" : "startup",
+        }
+      }
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "show manager",
+      "check for updates",
+    ]
+  }
+}
