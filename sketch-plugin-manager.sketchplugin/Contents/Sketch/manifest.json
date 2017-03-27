@@ -21,7 +21,7 @@
       "identifier" : "check for updates"
     },
     {
-      "script" : "main.js",
+      "script" : "main.cocoascript",
       "handlers" : {
         "actions" : {
            "Startup" : "startup",

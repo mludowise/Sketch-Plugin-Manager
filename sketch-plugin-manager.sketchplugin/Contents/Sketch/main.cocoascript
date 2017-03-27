@@ -1,69 +1,39 @@
-// @import 'main.js'
+@import 'main.js'
 
 let kHelperAppName = "Sketch Plugin Manager.app"
-let kPluginsFolder = "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins"
+let kDefaultsSuite = "com.melludowise.Sketch-Plugin-Manager"
+let kDefaultsDontShowOnStartup = "dont-show-on-startup"
 
 function showManager(context) {
     debug(function() {
-        let scriptPath = context.scriptPath
-        runApp(kHelperAppName, context.scriptPath, null)
+        runApp(context, kHelperAppName, null)
     })
 }
 
 function checkForUpdates(context) {
     debug(function() {
-        let scriptPath = context.scriptPath,
-            args = [
-                "-check-for-updates", "true",
-                "-always-alert", "true"
-            ]
-        runApp(kHelperAppName, context.scriptPath, args)
+        let args = [
+            "-check-for-updates", "true",
+            "-always-alert", "true"
+        ]
+        runApp(context, kHelperAppName, args)
     })
 }
 
 function startup(context) {
     debug(function() {
-        log(context)
-        // let scriptPath = context.scriptPath,
-        //     args = [
-        //         "-check-for-updates", "true",
-        //         "-always-alert", "false"
-        //     ]
-        // runApp(kHelperAppName, context.scriptPath, args)
+        // Check if user checked box to not check for updates on startup
+        let defaults = NSUserDefaults.alloc().initWithSuiteName(kDefaultsSuite)
+        let dontShowOnStartup = defaults.boolForKey(kDefaultsDontShowOnStartup)
+
+        if (dontShowOnStartup) {
+            return
+        }
+
+        let args = [
+            "-check-for-updates", "true",
+            "-always-alert", "false"
+        ]
+        runApp(context, kHelperAppName, args)
     })
-}
-
-function runApp(appName, scriptPath, args) {
-    let scriptFolder = scriptPath.stringByDeletingLastPathComponent(),
-        appPath = scriptFolder.stringByAppendingPathComponent(appName),
-        appUrl = [NSURL fileURLWithPath: appPath.stringByExpandingTildeInPath()]
-
-    // Point to plugin directory this plugin is installed in
-    var updatedArgs = [
-        "-plugin-dir", kPluginsFolder,
-    ]
-    if (args != null) {
-        updatedArgs = updatedArgs.concat(args)
-    }
-
-    let options = { "NSWorkspaceLaunchConfigurationArguments": updatedArgs }
-
-    return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
-}
-
-function debug(callback) {
-    try {
-        callback()
-    } catch(e) {
-		if (e != null) { // Null error means plugin was exited without error
-			log(e)
-			alert(e, "Sketch Plugin Manager Error")
-		}
-	}
-}
-
-function alert(msg, title) {
-	title = title || "Alert"
-	var app = NSApplication.sharedApplication()
-    app.displayDialog_withTitle(msg, title)
 }

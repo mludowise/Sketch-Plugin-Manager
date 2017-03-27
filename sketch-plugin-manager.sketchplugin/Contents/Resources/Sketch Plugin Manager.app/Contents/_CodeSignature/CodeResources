@@ -100,15 +100,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/CocoaScript.framework</key>
-		<dict>
-			<key>cdhash</key>
-			<data>
-			cnsDx50ajhYpEJOtpKtVqNGoNQQ=
-			</data>
-			<key>requirement</key>
-			<string>cdhash H"86519a4063554763f5ecb9757ae649575fd80b3b" or cdhash H"727b03c79d1a8e16291093ada4ab55a8d1a83504"</string>
-		</dict>
 		<key>Frameworks/MagicalRecord.framework</key>
 		<dict>
 			<key>cdhash</key>
