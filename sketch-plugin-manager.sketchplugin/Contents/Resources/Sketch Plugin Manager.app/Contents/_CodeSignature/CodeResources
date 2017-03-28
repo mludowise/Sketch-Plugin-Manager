@@ -10,35 +10,43 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		J8Egl0J4SZVz2Jkd1ezf+pOeccA=
+		FT/63RzJCpeMyJBtDgHyQVKjUgE=
+		</data>
+		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
+		<data>
+		cQX9QOxdY1w+mOxxvNVwgNReMOc=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		TlFUQAuxPivonC8HmVTSCQ2jcIc=
+		OQTw4j1HW2sfDl1JrRR4jeGvb/I=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		+tnheHN1yVkNIQXOz06uen3ND1A=
+		XxoKGEIcYYVYYpfShWMKIatn830=
+		</data>
+		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
+		<data>
+		hVCi2kT+VDffcogdEHGYV30W75U=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<data>
-		a5RU3RcAqlPtIQs2OIGrik8eyc8=
+		Y+slgwvzJVQHjqgiTgo7+ipqTHw=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		LFlhf2jFr1SbIt4g4IFN3SujLaM=
+		8mBBwonDhaWKZQ86VoB/l6XQfCM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<data>
-		tm7CJwLRyjvei4YXb1HWatD9nUM=
+		naz3WQx4ueEhNnbiGukoN5Qmkuk=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/installedView.nib</key>
 		<data>
-		sP/4ZiYlZmIig5xFcFCO18pPjUs=
+		uf8/V+4o0B5f2HwzClRx8X7QMZs=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<data>
-		yJ+FbZliwp8ELv7KE1hZ+FVRkfs=
+		/9kOcfKSYkEq1nt9aE30Tyy6OWc=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
 		<data>
@@ -46,11 +54,11 @@
 		</data>
 		<key>Resources/CatalogPluginView.nib</key>
 		<data>
-		XnV9MB0lYCdWJAIDzw6ROsNs/OA=
+		9BLdb8ff7zl/KdHIPfl2sMNbybk=
 		</data>
 		<key>Resources/ObjectiveGit.framework/Versions/A/ObjectiveGit</key>
 		<data>
-		EY7fuJBWh4OGAB0sOTBXFredhlE=
+		nxC0OYFJ7NhH6gHrTx4FcUXsfD0=
 		</data>
 		<key>Resources/ObjectiveGit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings</key>
 		<dict>
@@ -71,15 +79,15 @@
 		</data>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.mom</key>
 		<data>
-		MYY6xCKgcj/rteReRlB1ErnEV7Q=
+		OKQjzgxYDGBH1EGO0grfHaRT3PA=
 		</data>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.omo</key>
 		<data>
-		8E4aQGrzf4JZ6jej4plGyE/zpV8=
+		4caf3M5irpV7GsA6BdAcToXCZXM=
 		</data>
 		<key>Resources/Sketch Plugin Manager.momd/VersionInfo.plist</key>
 		<data>
-		qRKdfVPESl+Y6u3oIiO8ZK+B9og=
+		UD0mBTzquSCBn31zqYYVGVKU4Co=
 		</data>
 		<key>Resources/Zip.framework/Versions/A/Resources/Info.plist</key>
 		<data>
@@ -87,7 +95,7 @@
 		</data>
 		<key>Resources/Zip.framework/Versions/A/Zip</key>
 		<data>
-		iZFPHxGdIH3o6MklgzrCi7YmAyA=
+		cyrJ2FkhrFQ2ivZ93YutntkkMR8=
 		</data>
 		<key>Resources/Zip.framework/Versions/A/_CodeSignature/CodeResources</key>
 		<data>
@@ -104,28 +112,28 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			UC8Qy5JL009cpG0yA+jZiTi6vD8=
+			NwVD0Jr8tBbitjjUwS3t1sBpBtA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"3a1e9d36515e8f520e8f240ee3352195d33e9b5d" or cdhash H"502f10cb924bd34f5ca46d3203e8d98938babc3f"</string>
+			<string>cdhash H"7a36a97ecb32bc581f3c10c322d4efb2673da4e4" or cdhash H"370543d09afcb416e2b638d4c12dedd6c06906d0"</string>
 		</dict>
 		<key>Frameworks/ObjectiveGit.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			51nwJKBMYYtqt7rnbbs7Yb893eE=
+			Semd+gtxaTDYQzgOVAPNWkPyEIw=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"47e533e20673013bba8cf429f88a9e824dafd554" or cdhash H"e759f024a04c618b6ab7bae76dbb3b61bf3ddde1"</string>
+			<string>cdhash H"3a7346acd1fe8ee6c0ff68fb4cb5d1a928ddd409" or cdhash H"49e99dfa0b716930d843380e5403cd5a43f2108c"</string>
 		</dict>
 		<key>Frameworks/Zip.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			saS3QVfqkuBEXJFNI4ucRf5iem4=
+			1y5vZcuwrKGc2Z8ytYHLHMfpcTE=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"f891af4477335be71ed5a835eb571003674b0d46" or cdhash H"b1a4b74157ea92e0445c914d238b9c45fe627a6e"</string>
+			<string>cdhash H"f474b83a1e1a9c257b8791157cdbffdebbd63ef9" or cdhash H"d72e6f65cbb0aca19cd99f32b581cb1cc7e97131"</string>
 		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
@@ -255,56 +263,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sfElA4o8zYxXH67gaXXkeVAqByo9hyvZitH3fgkzHp0=
+			g65XUTzY1bK8yeYB09CqgLEi3r0mELtIH9dQEiJeC70=
+			</data>
+		</dict>
+		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			f97snGXATFdlUqV8GdZxkOWznjpZzBQBnzjBAVdyrZw=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SCQuSTSoYVLNulq3GNuBtTePbpg94OPt6ImbWrgfJFc=
+			YueVPimL6wBBhYZ2Y+Y20v754CJGoKsFRBF0kFX9M54=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GPey3oQaIHkKq4+E3AZCMsIIwvvnRMlWLYEzCOF1M64=
+			zVn5vchxGQ2ZKOjDHYCKZ/H/V3Ah+SW6QCnwuCz36GQ=
+			</data>
+		</dict>
+		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/CgDBZ6hFrBCvupu8+1jgGDnPJtL3d5z7/fBOrxQi/o=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h2M2k2lI5o/jkrQpk1NurQlKswvpqqQpjDTivZgS5TU=
+			a9pp0i1lwuNiHGIPAuVtBAruA0LhDS4belAEzWhxUwI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YR2Q1q4TRrNTBKB7IrS1xpDoKgZ+N7xnOGcFcypRvrE=
+			l1HTbryBivnwWmGNKTg5PuRsAYDXoo5hGvf2Z5MmIwM=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xflV7p3x+oepdWSZMNNuejMJWVzyJmHnsMrEWD6SiSY=
+			mJ3v69eS9VPIIx/4+Yzk5fwEa2wHdE3Udc1D7LPTjq4=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/installedView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9P3/m1pdrgMDDBKbqjvp1skcp3aUtdWzvXIv+q+hLtc=
+			OQ9wwUNLHw0H5+p/LpeFQ1hSg97rCB+XKgeCv0+x/OY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NfPSy0UgWtmB7mheQIe68TGiIHr+K3G3fVEQQqjwsOA=
+			vXw9g5qX/X4Z+y2tI25aFhAeuq1Aoy4LtUTEh/p9WT0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
@@ -318,7 +340,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u61Bl2KjYDOVaDGDgBP4VLT53aM5xjy7RLDaHMhnTOY=
+			fowBbUkiuU4PYBWWGmqXVTPrOW+MyZmddfSFdNLft2w=
 			</data>
 		</dict>
 		<key>Resources/ObjectiveGit.framework/ObjectiveGit</key>
@@ -335,7 +357,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4JY2NE0HT8nnodsPB91mGUbVZDU4bgdMWHouHEQQXY=
+			en2lXaVkWSBKRF9Pow2z3p6pDT5R5ijmhH709WL3FSk=
 			</data>
 		</dict>
 		<key>Resources/ObjectiveGit.framework/Versions/A/Resources/English.lproj/InfoPlist.strings</key>
@@ -370,21 +392,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NWQJzmPcyFPOFnj14oLjlKINCnqw69Ly/GGRWcTUGY0=
+			XrnaXlZU681pZfmiKF/NFQG4GAe9orDN/9E54pBXsSU=
 			</data>
 		</dict>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.omo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0umPRtOvRC7wo3HN20wUVz9mXeT1eoz1iDnoshy+feA=
+			9IwpxWJlSXU/AA3X0GA1k159c5PK4nSMSoyJ4OwAf3Q=
 			</data>
 		</dict>
 		<key>Resources/Sketch Plugin Manager.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RivH0ZVQBPEulZGO7sMwMnFzlhXKjiDd2gZLtz3jeis=
+			eY0658Lz0aPNjT3gf3eBOvbbuHCrJNkPJu4oKwE3h78=
 			</data>
 		</dict>
 		<key>Resources/Zip.framework/Resources</key>
@@ -403,7 +425,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xtlB3Kcps3WRb3u/dMqsjMpg5WBYiPuVqzfJ6CHbnZ0=
+			5EIC8l91VIK5Fu8xkIVNHrCQLAOSX6qiW59/D1y68QI=
 			</data>
 		</dict>
 		<key>Resources/Zip.framework/Versions/A/_CodeSignature/CodeResources</key>
