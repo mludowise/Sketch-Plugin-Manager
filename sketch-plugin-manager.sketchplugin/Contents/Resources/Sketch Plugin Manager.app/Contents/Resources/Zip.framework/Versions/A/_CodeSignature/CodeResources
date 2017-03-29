@@ -11,6 +11,61 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/Zip-Swift.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9046MNU13NHpTkAFAgtpq3AnDLo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Qilj408Z8sWFEMpFXVTa0mmJzBRqZ5xHLhze50LQesY=
+			</data>
+		</dict>
+		<key>Headers/Zip.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CSoZTTibqmBJfHchho2bxlJdRp4=
+			</data>
+			<key>hash2</key>
+			<data>
+			B21+g2I+dldm5stC3P9PczePrbSCc5VvhhBvuRBD3Ho=
+			</data>
+		</dict>
+		<key>Modules/Zip.swiftmodule/x86_64.swiftdoc</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xp+XyHHpZOPMmMnbdv2ATizX9AY=
+			</data>
+			<key>hash2</key>
+			<data>
+			iqGguvcXp1FMlppQG8g6VmRBwW0koK7A4MQajSIfCgE=
+			</data>
+		</dict>
+		<key>Modules/Zip.swiftmodule/x86_64.swiftmodule</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			r2xLwym8m4Q5byjiotWXd0qayr8=
+			</data>
+			<key>hash2</key>
+			<data>
+			10M21M3/OW/bMZNxtftppCAINVCnWIymBoUNhY2djz8=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FRXcDdC41/yGsd83ORwpD3QdOSc=
+			</data>
+			<key>hash2</key>
+			<data>
+			ytH8tPiU1Cy+JZy2B7WtQQd8mbcOWhQ7msoe3XvnUyw=
+			</data>
+		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>

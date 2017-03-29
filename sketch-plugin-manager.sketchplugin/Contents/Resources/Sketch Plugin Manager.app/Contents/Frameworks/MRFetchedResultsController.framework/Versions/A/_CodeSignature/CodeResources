@@ -4,44 +4,66 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		aq4HUfVa6AZjHLMNaIM9NDVJI6w=
+		5T1GcE/3+6SyhDz9PS6ToWHyo/w=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Resources/English.lproj/InfoPlist.strings</key>
+		<key>Headers/MRFetchedResultsController-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MiLKDDnrUKr4EmuvhS5VQwxHGK8=
+			2wkhrkZACDGram8WbsGYf2P69eg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Oc8u4Ht7Mz58F50L9NeYpbcq9qTlhPUeZCcDu/pPyCg=
+			hTJsuyW4cCEW5aglqLhZkHnJ2u5vFuGNvAV0OyOoQYM=
 			</data>
-			<key>optional</key>
-			<true/>
+		</dict>
+		<key>Headers/MRFetchedResultsController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			H5Bs5NWcxuAYEMst0WdmVPxw7xQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			S85CKrxpLp4ZwICpAIHfIMrLAE9Cyluak0oIjtm9LBw=
+			</data>
+		</dict>
+		<key>Headers/MRFetchedResultsController_Internal.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			eDUG/jgxwgYFRvqtCaGdLV5Lig4=
+			</data>
+			<key>hash2</key>
+			<data>
+			F38htRKFNRgB8CaiP9PvZKu0Fx/yOp+dVKsVczYI1EE=
+			</data>
+		</dict>
+		<key>Modules/module.modulemap</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RVf7+ScPFFDuuaneHaOOMKCE6yc=
+			</data>
+			<key>hash2</key>
+			<data>
+			KKay1xMZOmBl8061/ygmy4YQcRuBfDrYxuthTVjWY7w=
+			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aq4HUfVa6AZjHLMNaIM9NDVJI6w=
+			5T1GcE/3+6SyhDz9PS6ToWHyo/w=
 			</data>
 			<key>hash2</key>
 			<data>
-			SeUXcXOkhQdDT+qCQpykUglVAz033PxODnkxL7u9rCE=
+			TdgSLjSbf6cwdMCq2AjEUvrEOjhzhrkCaK6bAomxBf8=
 			</data>
 		</dict>
 	</dict>
