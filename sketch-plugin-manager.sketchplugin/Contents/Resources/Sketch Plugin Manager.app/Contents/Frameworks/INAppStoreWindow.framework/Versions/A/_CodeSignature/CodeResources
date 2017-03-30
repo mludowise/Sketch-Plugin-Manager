@@ -6,64 +6,64 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		5T1GcE/3+6SyhDz9PS6ToWHyo/w=
+		Rbm8FyCss4kvaUMVXWh6hlCsyQ4=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/MRFetchedResultsController-umbrella.h</key>
+		<key>Headers/INAppStoreWindow-umbrella.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2wkhrkZACDGram8WbsGYf2P69eg=
+			uzIfTPdK92oyHoMioaCMIqPJRb8=
 			</data>
 			<key>hash2</key>
 			<data>
-			hTJsuyW4cCEW5aglqLhZkHnJ2u5vFuGNvAV0OyOoQYM=
+			Y9KudjomKBfwRCZqUfC+d6HopGhds1g+Aetwlp6ylb0=
 			</data>
 		</dict>
-		<key>Headers/MRFetchedResultsController.h</key>
+		<key>Headers/INAppStoreWindow.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			H5Bs5NWcxuAYEMst0WdmVPxw7xQ=
+			dXsK/EpdRj1vpnfnHHB9T+XZM8o=
 			</data>
 			<key>hash2</key>
 			<data>
-			S85CKrxpLp4ZwICpAIHfIMrLAE9Cyluak0oIjtm9LBw=
+			KtAeIZ8qeWi3uekr/VcOCZJX/itaSX1BfGwuF8n2Z6Y=
 			</data>
 		</dict>
-		<key>Headers/MRFetchedResultsController_Internal.h</key>
+		<key>Headers/INWindowButton.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eDUG/jgxwgYFRvqtCaGdLV5Lig4=
+			1lllcNKWmcfm48w4M4nn7oDBJD8=
 			</data>
 			<key>hash2</key>
 			<data>
-			F38htRKFNRgB8CaiP9PvZKu0Fx/yOp+dVKsVczYI1EE=
+			/Myit85aSTRBjbYHOv/PlVvqq2w7vD7pb1wlg9rr7ag=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RVf7+ScPFFDuuaneHaOOMKCE6yc=
+			6u5lx470clNbO+x3GIb7gWEnnuM=
 			</data>
 			<key>hash2</key>
 			<data>
-			KKay1xMZOmBl8061/ygmy4YQcRuBfDrYxuthTVjWY7w=
+			EsVrN6Kv2I6Ec+p1PMnGDs8ZD0OlQcRg4kNsfv8hIcw=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5T1GcE/3+6SyhDz9PS6ToWHyo/w=
+			Rbm8FyCss4kvaUMVXWh6hlCsyQ4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TdgSLjSbf6cwdMCq2AjEUvrEOjhzhrkCaK6bAomxBf8=
+			F8bxl6DFW0+C8LIPy5FpT1kiQWAZek1dGrnVFCTZom4=
 			</data>
 		</dict>
 	</dict>
