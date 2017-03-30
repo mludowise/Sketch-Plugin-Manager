@@ -7,17 +7,17 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>MRFetchedResultsController</string>
+	<string>INAppStoreWindow</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.cocoapods.MRFetchedResultsController</string>
+	<string>org.cocoapods.INAppStoreWindow</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MRFetchedResultsController</string>
+	<string>INAppStoreWindow</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2.1</string>
+	<string>1.4.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
