@@ -3,9 +3,8 @@ Sketch Plugin Manager
 
 Sketch Plugin Manager uses the power of Git to keep all of your installed plugins up to date.
 
-<aside class="warning">
-Sketch Plugin Manager is currently only supported on OS X 10.12 Seirra. A build for 10.11 El Capitan is in the works. To get notified of changes, **watch** this [project on GitHub](https://github.com/mludowise/Sketch-Plugin-Manager).
-</aside>
+### Supported Operating Systems
+Sketch Plugin Manager is currently only supported on **OS X 10.12 Seirra**. A build for 10.11 El Capitan is in the works. To get notified of changes, **watch** this [project on GitHub](https://github.com/mludowise/Sketch-Plugin-Manager).
 
 Usage
 -----
