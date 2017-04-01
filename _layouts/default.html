@@ -21,7 +21,7 @@
     * using 'navigator.sendBeacon' in browser that support it.
     */
     var trackLink = function(url) {
-       ga('send', 'event', 'click', url, url, {
+       ga('send', 'event', 'outbound', 'click', url, {
          'transport': 'beacon',
          'hitCallback': function(){document.location = url;}
        });
@@ -63,7 +63,7 @@
         ga('send', 'pageview');
       </script>
       <script type="text/javascript">
-        $('a[href]').click(trackLink);
+      $('a[href]').click(function() { trackLink($(this).attr("href")) })
       </script>
     {% endif %}
   </body>
