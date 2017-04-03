@@ -384,7 +384,7 @@
 		</dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		Z3RFku+BSGrXDhYLVWV0DAG5y6k=
+		nNN6Go8xBr3yBHQNBCfnRhrocCA=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -393,11 +393,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aPJsrSKaEv6gzwSnCnf4SqPTXVI=
+			EnSfmn4FdjLeVqxwrz5gCJrklUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			1wJaTLvjV9IJ8eKRNN2J1omEUCkCiFtwmihTISSHvFo=
+			28h9BZl9UGpKMMvurgYSMUHuIRF+BPsjESP7d2Tm1rQ=
 			</data>
 		</dict>
 		<key>Headers/DateToolsSwift-umbrella.h</key>
@@ -415,22 +415,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Y2WUrcX4ij8kJzmOoCtaQBW4u2w=
+			Td6TnUMItXvRbVTKGPaHApr3We8=
 			</data>
 			<key>hash2</key>
 			<data>
-			v9UeDgC9P1dx7Qk77UxENt92ohEAZJua5FIlJHmhgnU=
+			ER4xb/Vp3oDlixciY9mDZE7qhuwxNB0pnAsN1doONuY=
 			</data>
 		</dict>
 		<key>Modules/DateToolsSwift.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Mahz3Rm6MUAkWCWZyUAXBXCzAq8=
+			3+/jLYBLce1/helYwL+h+pKGY3o=
 			</data>
 			<key>hash2</key>
 			<data>
-			nNMrolrav+LlDtYqE7Q/n3J8xTKSjsi4P/y+tF1CP4Y=
+			0aReoRKLVIsYuENopBKYm9a0fhuH31r8pohpfebHNq8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -994,11 +994,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Z3RFku+BSGrXDhYLVWV0DAG5y6k=
+			nNN6Go8xBr3yBHQNBCfnRhrocCA=
 			</data>
 			<key>hash2</key>
 			<data>
-			gLc5I7W+SK2KN8AU3PFGvCniHLacQfP1FmhBp2smyzo=
+			BbqVJPfd3wyPJAklCTJlizOCBah4zg33MWX4OGo5hP0=
 			</data>
 		</dict>
 	</dict>
