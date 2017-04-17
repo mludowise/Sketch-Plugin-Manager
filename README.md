@@ -33,17 +33,16 @@ You will be able to review the list of changes before accepting updates to each 
 
 ### Installed Plugins
 
-If you already installed plugins without using Sketch Plugin Manager or Git, they will need to be reinstalled from the Catalog in order to check for the latest updates. Go to the Installed tab to reinstall plugins.
+You can manage all of your installed plugins from one place.
 
 ![Updates Tab](img/installed-view.png)
 
 Installation
 ------------
-First, attempt to install the plugin using the [installer](https://mludowise.github.io/Sketch-Plugin-Manager/download/Sketch%20Plugin%20Manager.pkg). If you run into errors or don't have admin permission on your system, follow the instructions below.
+1. Download and unzip the [attached Zip file](https://github.com/mludowise/Sketch-Plugin-Manager/archive/master.zip).
+2. Double-click on **sketch-plugin-manager.sketchplugin** to install it.
 
-1. Download the attached [zip file](https://mludowise.github.io/Sketch-Plugin-Manager/download/Sketch-Plugin-Manager.zip).
-2. Open the zip file and copy the entire folder into the Sketch plugins folder `/Users/<your name>/Library/Application Support/com.bohemiancoding.sketch3/Plugins`.
- - The easiest way to open this folder is to open Sketch and go to **Plugins > Manage Plugins**, click on the **gear icon**, and select **Show Plugins Folder**.
+Developers
+----------
 
-![Plugins Menu](img/install1.png)
-![Plugins Window](img/install2.png)
+To add your plugin to Sketch Plugin Manager, follow the instructions in [DEVELOPERS.md](DEVELOPERS.md).

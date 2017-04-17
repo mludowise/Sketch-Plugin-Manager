@@ -1,10 +1,10 @@
 {
   "name" : "🔌 Sketch Plugin Manager",
   "author" : "Mel Ludowise",
-  "homepage": "",
+  "homepage": "https://mludowise.github.io/Sketch-Plugin-Manager",
   "bundleVersion": 1,
   "identifier" : "com.mludowise.sketch-plugin-manager",
-  "version" : 0.1,
+  "version" : 0.2,
   "compatibleVersion": 3,
 
   "commands" : [

@@ -22,8 +22,6 @@ function checkForUpdates(context) {
 
 function startup(context) {
     debug(function() {
-        log("Checking for plugins on startup...")
-
         // Check if user checked box to not check for updates on startup
         let defaults = NSUserDefaults.alloc().initWithSuiteName(kDefaultsSuite)
         let dontShowOnStartup = defaults.boolForKey(kDefaultsDontShowOnStartup)
