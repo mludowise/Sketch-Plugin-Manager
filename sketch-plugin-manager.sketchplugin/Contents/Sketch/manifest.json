@@ -24,7 +24,7 @@
       "script" : "main.cocoascript",
       "handlers" : {
         "actions" : {
-           "Startup" : "startup",
+           "Startup" : "startup"
         }
       }
     }
@@ -32,7 +32,7 @@
   "menu" : {
     "items" : [
       "show manager",
-      "check for updates",
+      "check for updates"
     ]
   }
 }
