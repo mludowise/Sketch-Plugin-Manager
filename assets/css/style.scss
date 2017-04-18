@@ -1,5 +1,12 @@
+---
+---
+
+$section-headings-color: #198BB0;
+$header-bg-color: #08a9a9;
+$header-bg-color-secondary: #7f4ac5;
+
+@import "{{ site.theme }}";
+
 .site-icon {
     margin-top: 20px;
 }
-
-@import "{{ site.theme }}";
