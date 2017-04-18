@@ -10,3 +10,21 @@ $header-bg-color-secondary: #7f4ac5;
 .site-icon {
     margin-top: 20px;
 }
+
+// Override these until cayman theme is updated to use SCSS color variables
+.main-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: #198BB0;
+    }
+}
+
+.page-header {
+    color: #FFFFFF;
+    background-color: #08a9a9;
+    background-image: linear-gradient(120deg, #7f4ac5, #08a9a9);
+}
