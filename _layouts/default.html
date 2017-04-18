@@ -33,7 +33,7 @@
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       {% if site.icon %}
-        <img src="{{ site.icon }}"/>
+        <img src="{{ site.icon }}" class="site-icon"/>
       {% endif %}
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
       {% if site.show_downloads %}
