@@ -389,61 +389,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/DateToolsSwift-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EnSfmn4FdjLeVqxwrz5gCJrklUw=
-			</data>
-			<key>hash2</key>
-			<data>
-			28h9BZl9UGpKMMvurgYSMUHuIRF+BPsjESP7d2Tm1rQ=
-			</data>
-		</dict>
-		<key>Headers/DateToolsSwift-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			bnF8GkIei+x3v/C6W4nNo6mP19I=
-			</data>
-			<key>hash2</key>
-			<data>
-			OsL6vqjwMhqnlDDBHgo9EbVJ2r4B0IpsNVMeVcJKoxM=
-			</data>
-		</dict>
-		<key>Modules/DateToolsSwift.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Td6TnUMItXvRbVTKGPaHApr3We8=
-			</data>
-			<key>hash2</key>
-			<data>
-			ER4xb/Vp3oDlixciY9mDZE7qhuwxNB0pnAsN1doONuY=
-			</data>
-		</dict>
-		<key>Modules/DateToolsSwift.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3+/jLYBLce1/helYwL+h+pKGY3o=
-			</data>
-			<key>hash2</key>
-			<data>
-			0aReoRKLVIsYuENopBKYm9a0fhuH31r8pohpfebHNq8=
-			</data>
-		</dict>
-		<key>Modules/module.modulemap</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4gp3HVuTc8CPL+Mem1ru+7vdKQI=
-			</data>
-			<key>hash2</key>
-			<data>
-			3wB8pO2x5wNjBsVFD5jJT1QweP5Z2kKkEBsmCtd98dQ=
-			</data>
-		</dict>
 		<key>Resources/DateTools.bundle/am.lproj/DateTools.strings</key>
 		<dict>
 			<key>hash</key>
