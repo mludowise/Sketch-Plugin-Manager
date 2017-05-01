@@ -1,0 +1,6 @@
+framework module MagicalRecord {
+  umbrella header "MagicalRecord.h"
+
+  export *
+  module * { export * }
+}

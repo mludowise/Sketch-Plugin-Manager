@@ -1,0 +1,10 @@
+framework module SketchPluginManagerFramework {
+  umbrella header "SketchPluginManagerFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module SketchPluginManagerFramework.Swift {
+    header "SketchPluginManagerFramework-Swift.h"
+}

@@ -1,0 +1,6 @@
+framework module DateTools {
+  umbrella header "DateTools.h"
+
+  export *
+  module * { export * }
+}

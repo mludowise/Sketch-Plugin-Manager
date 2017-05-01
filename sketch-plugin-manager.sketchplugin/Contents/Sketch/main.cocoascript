@@ -1,39 +1,29 @@
 @import 'main.js'
 
-let kHelperAppName = "Sketch Plugin Manager.app"
-let kDefaultsSuite = "com.melludowise.Sketch-Plugin-Manager"
-let kDefaultsDontShowOnStartup = "dont-show-on-startup"
+let kDefaultsDontShowOnStartup = "com.melludowise.Sketch-Plugin-Manager.dont-show-on-startup"
 
 function showManager(context) {
     debug(function() {
-        runApp(context, kHelperAppName, null)
+        run(context)
     })
 }
 
 function checkForUpdates(context) {
     debug(function() {
-        let args = [
-            "-check-for-updates", "true",
-            "-always-alert", "true"
-        ]
-        runApp(context, kHelperAppName, args)
+        run(context, true, true)
     })
 }
 
 function startup(context) {
     debug(function() {
         // Check if user checked box to not check for updates on startup
-        let defaults = NSUserDefaults.alloc().initWithSuiteName(kDefaultsSuite)
+        let defaults = NSUserDefaults.standardUserDefaults()
         let dontShowOnStartup = defaults.boolForKey(kDefaultsDontShowOnStartup)
 
         if (dontShowOnStartup) {
             return
         }
 
-        let args = [
-            "-check-for-updates", "true",
-            "-always-alert", "false"
-        ]
-        runApp(context, kHelperAppName, args)
+        run(context, true, false)
     })
 }
