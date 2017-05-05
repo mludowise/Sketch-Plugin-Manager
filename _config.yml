@@ -5,9 +5,3 @@ show_downloads: true
 title: Sketch Plugin Manager
 google_analytics: UA-81615963-2
 icon: img/site-icon.svg
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: sketch-plugin-manager.sketchplugin/Contents/Resources/icon.png
