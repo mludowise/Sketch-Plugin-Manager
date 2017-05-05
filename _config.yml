@@ -1,6 +1,4 @@
 theme: jekyll-theme-cayman
-gems:
-  - jekyll-seo-tag
 show_downloads: true
 title: Sketch Plugin Manager
 google_analytics: UA-81615963-2
