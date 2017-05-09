@@ -14,6 +14,7 @@
                       pluginFile:(NSString*)pluginFile
                  checkForUpdates:(BOOL)checkForUpdates
            alwaysShowUpdateAlert:(BOOL)alwaysShowUpdateAlert
+                   autoReinstall:(BOOL)autoReinstall
                              tab:(UInt8)tab;
 
 +(void) stopManager;

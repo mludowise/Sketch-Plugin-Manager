@@ -20,6 +20,8 @@ import Cocoa
     private var localPluginManagerFinishedLoading = false
     private var catalogManagerFinishedLoading = false
     
+    private var autoReinstall = true
+    
     private var isRunning = false
     
     var pluginFile: String? = nil {
@@ -56,7 +58,7 @@ import Cocoa
     
     // MARK: - Start
     
-    @objc public func start(pluginDirectory: String? = nil, pluginFile: String? = nil, checkForUpdates: Bool = false, alwaysShowUpdateAlert: Bool = false, tab: UInt8 = 0) {
+    @objc public func start(pluginDirectory: String? = nil, pluginFile: String? = nil, checkForUpdates: Bool = false, alwaysShowUpdateAlert: Bool = false, autoReinstall: Bool = true, tab: UInt8 = 0) {
         
         // Do nothing if the manager is already running
         if isRunning {
@@ -73,6 +75,8 @@ import Cocoa
         if let pluginFile = pluginFile {
             PluginManager.shared().pluginFile = pluginFile
         }
+        
+        self.autoReinstall = autoReinstall
         
         let windowManager = WindowManager.shared()
         windowManager.shouldCheckForUpdates = checkForUpdates
@@ -115,6 +119,11 @@ import Cocoa
     
     // Check if this plugin has a repo and reinstall it if it does not
     private func checkForReinstall() {
+        // Check if auto-reinstall is disabled
+        if !autoReinstall {
+            return
+        }
+        
         // Get current plugins directory and current plugin file
         guard let pluginsDirectory = LocalPluginManager.shared().pluginDirectories.first,
             let pluginFile = pluginFile else {

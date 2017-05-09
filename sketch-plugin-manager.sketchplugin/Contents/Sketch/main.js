@@ -1,3 +1,5 @@
+let kAutoReinstall = true
+
 function run(context, checkForUpdates, alwaysShowUpdateAlert, tab) {
     let sketch = context.api(),
         pluginsFolder = getPluginsFolder(),
@@ -8,15 +10,28 @@ function run(context, checkForUpdates, alwaysShowUpdateAlert, tab) {
 
     // Point to plugin directory this plugin is installed in
     if (loadFrameworks(sketch)) {
-        [PluginManagerObjc startWithPluginDirectory:pluginsFolder
-                                         pluginFile:pluginFile
-                                    checkForUpdates:checkForUpdates
-                              alwaysShowUpdateAlert:alwaysShowUpdateAlert
-                                                tab:tab
-        ];
-        return true
+        try {
+            // Version 1.2
+            [PluginManagerObjc startWithPluginDirectory:pluginsFolder
+                                             pluginFile:pluginFile
+                                        checkForUpdates:checkForUpdates
+                                  alwaysShowUpdateAlert:alwaysShowUpdateAlert
+                                          autoReinstall:kAutoReinstall
+                                                    tab:tab
+            ];
+            return true
+        } catch(e) {
+            // Version <= 1.1
+            [PluginManagerObjc startWithPluginDirectory:pluginsFolder
+                                             pluginFile:pluginFile
+                                        checkForUpdates:checkForUpdates
+                                  alwaysShowUpdateAlert:alwaysShowUpdateAlert
+                                                    tab:tab
+            ];
+            return true
+        }
     }
-    
+
     return false
 }
 
