@@ -7,6 +7,7 @@
 //
 
 import Cocoa
+import GoogleAnalyticsTracker
 
 @objc public final class PluginManager: NSObject, PluginManagerProtocol {
     
@@ -40,6 +41,10 @@ import Cocoa
     private override init() {
         super.init()
         
+        // Setup Google Analytics
+        let configuration = MPAnalyticsConfiguration(analyticsIdentifier: kGoogleAnalyticsTrackingID)
+        MPGoogleAnalyticsTracker.activate(configuration)
+        
         // Register for notifications
         NotificationCenter.default.addObserver(self, selector: #selector(localPluginManagerDidFinishLoading), name: LocalPluginManager.finishedLoadingNotificationName, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(catalogPluginManagerDidFinishLoading), name: CatalogManager.finishedLoadingNotificationName, object: nil)
@@ -67,6 +72,15 @@ import Cocoa
         
         // Mark that plugin manager is open
         isRunning = true
+        
+        // Track in Google Analytics
+        if checkForUpdates && !alwaysShowUpdateAlert {
+            MPGoogleAnalyticsTracker.trackEvent(ofCategory: "Autocheck", action: "", label: "", value: 0)
+        } else if checkForUpdates {
+            MPGoogleAnalyticsTracker.trackEvent(ofCategory: "Sketch Menu", action: "Check for Updates", label: "", value: 0)
+        } else {
+            MPGoogleAnalyticsTracker.trackEvent(ofCategory: "Sketch Menu", action: "Open Manager", label: "", value: 0)
+        }
         
         if let pluginDirectory = pluginDirectory {
             LocalPluginManager.shared().pluginDirectories = [pluginDirectory]

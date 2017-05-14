@@ -149,6 +149,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS_NAMED("CatalogPlugin")
 @interface CatalogPlugin : NSManagedObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -191,6 +192,7 @@ SWIFT_CLASS_NAMED("CatalogPlugin")
 
 SWIFT_CLASS_NAMED("LocalPlugin")
 @interface LocalPlugin : NSManagedObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 

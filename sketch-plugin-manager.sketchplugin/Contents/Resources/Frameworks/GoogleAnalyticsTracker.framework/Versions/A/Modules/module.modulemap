@@ -1,0 +1,6 @@
+framework module GoogleAnalyticsTracker {
+  umbrella header "GoogleAnalyticsTracker.h"
+
+  export *
+  module * { export * }
+}

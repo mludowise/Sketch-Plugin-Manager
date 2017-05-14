@@ -10,6 +10,7 @@
 #import <MagicalRecord/MagicalRecord.h>
 #import <ObjectiveGit/ObjectiveGit.h>
 #import <DateTools/DateTools.h>
+#import <GoogleAnalyticsTracker/GoogleAnalyticsTracker.h>
 
 //! Project version number for SketchPluginManagerFramework.
 FOUNDATION_EXPORT double SketchPluginManagerFrameworkVersionNumber;
