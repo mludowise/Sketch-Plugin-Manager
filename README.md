@@ -63,7 +63,7 @@ To translate a line of text, translate the right-side of the statement to anothe
 Translating the Website
 -----------------------
 
-You can also help translate [Sketch Plugin Manager's website](https://mludowise.github.io/Sketch-Plugin-Manager/) by translating the README.md file located on the master branch. You can either open a Pull Request or create a new Issue.
+You can also help translate [Sketch Plugin Manager's website](https://mludowise.github.io/Sketch-Plugin-Manager/) by translating the [README.md](https://github.com/mludowise/Sketch-Plugin-Manager/blob/master/README.md) file located on the master branch. You can either open a Pull Request or create a new Issue.
 
 ### To Open a Pull Request
 1. Clone this repository and checkout the `master` branch:
