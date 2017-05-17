@@ -33,8 +33,8 @@ git checkout localize
 2. Open the `Localizable.strings` file located in the `base.lproj` folder.
 3. Translate each string to the appropriate language (more details below).
 4. Create a [New Issue](https://github.com/mludowise/Sketch-Plugin-Manager/issues/new):
-  - Attach the updated `Localizable.strings` file.
-  - Specify which language you're translating into.
+   - Attach the updated `Localizable.strings` file.
+   - Specify which language you're translating into.
 
 ### Translating Localizable.strings
 
@@ -80,5 +80,5 @@ git checkout master
 2. Open the `README.md` file.
 3. Translate the file into the appropriate language.
 4. Create a [New Issue](https://github.com/mludowise/Sketch-Plugin-Manager/issues/new):
-  - Attach the updated `README.md` file.
-  - Specify which language you're translating into.
+   - Attach the updated `README.md` file.
+   - Specify which language you're translating into.
