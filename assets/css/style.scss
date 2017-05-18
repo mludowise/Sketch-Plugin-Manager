@@ -28,3 +28,12 @@ $header-bg-color-secondary: #7f4ac5;
     background-color: #08a9a9;
     background-image: linear-gradient(120deg, #7f4ac5, #08a9a9);
 }
+
+.gh-buttons {
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+
+    * + * {
+        margin-left: 1rem;
+    }
+}
