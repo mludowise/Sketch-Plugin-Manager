@@ -35,6 +35,9 @@
     }
     </script>
     {% endif %}
+    {% if site.show_stars or site.show_watch %}
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    {% endif %}
   </head>
   <body>
     <section class="page-header">
@@ -48,6 +51,12 @@
       {% endif %}
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_stars %}
+        <a class="github-button" href="{{ site.github.repository_url }}" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star {{repository_nwo}} on GitHub">Star</a>
+      {% endif %}
+      {% if site.show_watch %}
+        <a class="github-button" href="{{ site.github.repository_url }}" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch {{repository_nwo}} on GitHub">Watch</a>
       {% endif %}
     </section>
 
