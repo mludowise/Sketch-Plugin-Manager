@@ -1,5 +1,7 @@
 theme: jekyll-theme-cayman
 show_downloads: true
+show_stars: true
+show_watch: true
 title: Sketch Plugin Manager
 google_analytics: UA-81615963-2
 icon: img/site-icon.svg
