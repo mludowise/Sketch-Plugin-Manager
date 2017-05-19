@@ -24,7 +24,7 @@
       "script" : "main.cocoascript",
       "handlers" : {
         "actions" : {
-           "Startup" : "startup"
+           "OpenDocument" : "startup"
         }
       }
     }
