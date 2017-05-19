@@ -42,7 +42,17 @@ Installation
 1. Download and unzip the [attached Zip file](https://github.com/mludowise/Sketch-Plugin-Manager/archive/master.zip).
 2. Double-click on **sketch-plugin-manager.sketchplugin** to install it.
 
-Developers
-----------
+Donation
+--------
+Support future updates and maintentence.
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/mludowise/5)
+
+Translation Help
+----------------
+Are you fluent in multiple languages? [Help translate Sketch Plugin Manager](https://github.com/mludowise/Sketch-Plugin-Manager/tree/localize).
+
+Plugin Developers
+-----------------
 
 To add your plugin to Sketch Plugin Manager, follow the instructions in [DEVELOPERS.md](DEVELOPERS.md).

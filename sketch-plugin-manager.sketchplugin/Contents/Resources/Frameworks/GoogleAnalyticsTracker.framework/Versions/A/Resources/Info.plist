@@ -7,17 +7,19 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>SketchPluginManagerFramework</string>
+	<string>GoogleAnalyticsTracker</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.melludowise.SketchPluginManagerFramework</string>
+	<string>com.macpaw.GoogleAnalyticsTracker</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>SketchPluginManagerFramework</string>
+	<string>GoogleAnalyticsTracker</string>
 	<key>CFBundlePackageType</key>
 	<string>FMWK</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3</string>
+	<string>1.1</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
@@ -39,6 +41,6 @@
 	<key>DTXcodeBuild</key>
 	<string>8E2002</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2017 Mel Ludowise. All rights reserved.</string>
+	<string>Copyright © 2016 MacPaw Inc. All rights reserved.</string>
 </dict>
 </plist>

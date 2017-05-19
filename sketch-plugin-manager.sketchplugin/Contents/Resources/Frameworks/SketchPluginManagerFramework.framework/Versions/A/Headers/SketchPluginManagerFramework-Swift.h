@@ -149,6 +149,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 SWIFT_CLASS_NAMED("CatalogPlugin")
 @interface CatalogPlugin : NSManagedObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -191,6 +192,7 @@ SWIFT_CLASS_NAMED("CatalogPlugin")
 
 SWIFT_CLASS_NAMED("LocalPlugin")
 @interface LocalPlugin : NSManagedObject
+@property (nonatomic, readonly, copy) NSString * _Nonnull description;
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -237,6 +239,8 @@ SWIFT_CLASS("_TtC28SketchPluginManagerFramework13PluginManager")
 + (PluginManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)startWithPluginDirectory:(NSString * _Nullable)pluginDirectory pluginFile:(NSString * _Nullable)pluginFile checkForUpdates:(BOOL)checkForUpdates alwaysShowUpdateAlert:(BOOL)alwaysShowUpdateAlert autoReinstall:(BOOL)autoReinstall tab:(uint8_t)tab;
 - (void)stopManager;
+- (NSString * _Nonnull)localizeMenuOpenManager SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)localizeMenuCheckForUpdates SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM(uint8_t, WindowTab) {

@@ -68,6 +68,7 @@ function loadFrameworks(sketch) {
     return loadFramework('ObjectiveGit', 'GTRepository', frameworkFolder) &&
         loadFramework('DateTools', 'DTTimePeriod', frameworkFolder) &&
         loadFramework('MagicalRecord', 'MagicalRecord', frameworkFolder) &&
+        loadFramework('GoogleAnalyticsTracker', 'MPGoogleAnalyticsTracker', frameworkFolder) &&
         loadFramework('SketchPluginManagerFramework', 'PluginManagerObjc', frameworkFolder);
 }
 
