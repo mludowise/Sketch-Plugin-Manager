@@ -239,6 +239,8 @@ SWIFT_CLASS("_TtC28SketchPluginManagerFramework13PluginManager")
 + (PluginManager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)startWithPluginDirectory:(NSString * _Nullable)pluginDirectory pluginFile:(NSString * _Nullable)pluginFile checkForUpdates:(BOOL)checkForUpdates alwaysShowUpdateAlert:(BOOL)alwaysShowUpdateAlert autoReinstall:(BOOL)autoReinstall tab:(uint8_t)tab;
 - (void)stopManager;
+- (NSString * _Nonnull)localizeMenuOpenManager SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nonnull)localizeMenuCheckForUpdates SWIFT_WARN_UNUSED_RESULT;
 @end
 
 typedef SWIFT_ENUM(uint8_t, WindowTab) {
