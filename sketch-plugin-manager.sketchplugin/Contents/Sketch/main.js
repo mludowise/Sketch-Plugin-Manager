@@ -1,6 +1,6 @@
 function runApp(context, appName, args) {
     let sketch = context.api()
-    let appUrl = sketch.resourceNamed(kHelperAppName)
+    let appUrl = sketch.resourceNamed(appName + ".app")
 
     let pluginsFolder = getPluginsFolder()
 
@@ -15,7 +15,11 @@ function runApp(context, appName, args) {
 
     let options = { "NSWorkspaceLaunchConfigurationArguments": updatedArgs }
 
-    return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
+    // return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
+    var task = NSTask.alloc().init()
+    task.launchPath = appUrl.URLByAppendingPathComponent("Contents/MacOS/" + appName).fileSystemRepresentation()
+    task.arguments = updatedArgs
+    task.launch()
 }
 
 function getPluginsFolder() {
