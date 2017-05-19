@@ -3,7 +3,7 @@ Translation Help
 
 If you're fluent in multiple languages, you can help Sketch Plugin Manager by translating it into additional languages.
 
-Specifically, I would like to translate into the following languages but help with additional languages is always welcome.
+Specifically, I would like to translate into the following languages, but help with additional languages is always welcome.
  * Chinese (Simplified)
  * German
  * French
