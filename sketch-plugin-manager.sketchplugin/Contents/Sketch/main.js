@@ -1,38 +1,21 @@
 let kAutoReinstall = true
 
-function run(context, checkForUpdates, alwaysShowUpdateAlert, tab) {
+function run(context, appName, args) {
     let sketch = context.api(),
+        appUrl = sketch.resourceNamed(appName + ".app")
         pluginsFolder = getPluginsFolder(),
         pluginFile = context.plugin.url().path()
-    checkForUpdates = checkForUpdates || false
-    alwaysShowUpdateAlert = alwaysShowUpdateAlert || false
-    tab = tab || 0
+    args = args || []
 
-    // Point to plugin directory this plugin is installed in
-    if (loadFrameworks(sketch)) {
-        try {
-            // Version 1.2
-            [PluginManagerObjc startWithPluginDirectory:pluginsFolder
-                                             pluginFile:pluginFile
-                                        checkForUpdates:checkForUpdates
-                                  alwaysShowUpdateAlert:alwaysShowUpdateAlert
-                                          autoReinstall:kAutoReinstall
-                                                    tab:tab
-            ];
-            return true
-        } catch(e) {
-            // Version <= 1.1
-            [PluginManagerObjc startWithPluginDirectory:pluginsFolder
-                                             pluginFile:pluginFile
-                                        checkForUpdates:checkForUpdates
-                                  alwaysShowUpdateAlert:alwaysShowUpdateAlert
-                                                    tab:tab
-            ];
-            return true
-        }
-    }
+    args.concat([
+        "-plugin-file", pluginFile,
+        "-plugins-dir", pluginsFolder,
+        "-auto-reinstall", kAutoReinstall
+    ])
 
-    return false
+    let options = { "NSWorkspaceLaunchConfigurationArguments": args }
+
+    return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
 }
 
 function getPluginsFolder() {
@@ -44,32 +27,6 @@ function getPluginsFolder() {
         log(e)
         return "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
     }
-}
-
-function loadFramework(frameworkName, frameworkClass, directory) {
-    var mocha = [Mocha sharedRuntime];
-
-    if (mocha.valueForKey(frameworkName) || NSClassFromString(frameworkClass) != null) {
-        log("😎 " + frameworkName + " already loaded.")
-        return true
-    } else if([mocha loadFrameworkWithName:frameworkName inDirectory:directory]) {
-        log("✅ " + frameworkName + " was loaded.")
-        log(frameworkClass + ": " + NSClassFromString(frameworkClass))
-        return true
-    } else {
-        log("❌ " + frameworkName + " could not be loaded.")
-        return false
-    }
-}
-
-function loadFrameworks(sketch) {
-    let frameworkFolder = sketch.resourceNamed("Frameworks").path()
-
-    return loadFramework('ObjectiveGit', 'GTRepository', frameworkFolder) &&
-        loadFramework('DateTools', 'DTTimePeriod', frameworkFolder) &&
-        loadFramework('MagicalRecord', 'MagicalRecord', frameworkFolder) &&
-        loadFramework('GoogleAnalyticsTracker', 'MPGoogleAnalyticsTracker', frameworkFolder) &&
-        loadFramework('SketchPluginManagerFramework', 'PluginManagerObjc', frameworkFolder);
 }
 
 function debug(callback) {
