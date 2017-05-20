@@ -63,7 +63,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			yHm6h0X+HFLbje9BQi+MiwjGQmA=
+			PBMYRu5kAnIYaQKTe8i6FmGfGo8=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.melludowise.SketchPluginManagerFramework" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: mludowise@gmail.com (V5E6G4X45K)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
