@@ -21,7 +21,13 @@ function run(context, appName, args) {
     let fileUrl = sketch.resourceNamed("icon.png")
 
     // return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
-    return NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
+    if (NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)) {
+        log("success")
+        return true
+    } else {
+        log("fail")
+        return false
+    }
     // return NSWorkspace.sharedWorkspace().openFile_withApplication(fileUrl.fileSystemRepresentation(), appUrl.fileSystemRepresentation())
     // return NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString("sketch-plugin-manager://someurl"))
 }
