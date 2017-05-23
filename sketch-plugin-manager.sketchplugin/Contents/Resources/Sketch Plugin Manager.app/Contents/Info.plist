@@ -54,7 +54,7 @@
 	<key>DTXcodeBuild</key>
 	<string>8E2002</string>
 	<key>LSApplicationCategoryType</key>
-	<string>public.app-category.productivity</string>
+	<string>public.app-category.utilities</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>10.12</string>
 	<key>LSUIElement</key>

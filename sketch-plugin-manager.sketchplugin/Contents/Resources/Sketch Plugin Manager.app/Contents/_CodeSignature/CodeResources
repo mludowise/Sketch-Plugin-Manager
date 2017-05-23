@@ -27,172 +27,172 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			MbVZvtfQUCvDYistvzu0kSSVfzM=
+			LJQJIcbNUpHZSosnvkmQjhVqE90=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.matthewyork.DateTools" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "com.matthewyork.DateTools" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/GoogleAnalyticsTracker.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gF7YSNXX3Ykxm+9tMn5QyyizO6Y=
+			7Kgn8oMBnelpvLy3KxHCEhmfPqY=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.macpaw.GoogleAnalyticsTracker" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "com.macpaw.GoogleAnalyticsTracker" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/MagicalRecord.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			FTtKvh1e9hTUOTLOueaZsNemdIs=
+			RO4o1VJsFSvvyblcpDwTSs2caXM=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.magicalpanda.MagicalRecord" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "com.magicalpanda.MagicalRecord" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/ObjectiveGit.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8bOXxXpMfMg6/whOKbS60EchByo=
+			vLST8wjZO529mogA9XpWb76DO5I=
 			</data>
 			<key>requirement</key>
-			<string>identifier "org.libgit2.ObjectiveGit" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "org.libgit2.ObjectiveGit" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/SketchPluginManagerFramework.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			OzbwpS6MiS/vfkAFOFfsvme0Y+I=
+			TN0TWtfuqf4IuMn0+UowRhduXVM=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.melludowise.SketchPluginManagerFramework" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "com.melludowise.SketchPluginManagerFramework" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/libclang_rt.asan_osx_dynamic.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			c2694eLP/buJYJCsH+f/MxucKAQ=
+			oaO6Qvah1J8YUrr+LoUEa9BS1pA=
 			</data>
 			<key>requirement</key>
-			<string>identifier "libclang_rt.asan_osx_dynamic" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>anchor apple generic and identifier "libclang_rt.asan_osx_dynamic" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
 		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			XiID4greK++76aI9OO92QDVXt6E=
+			pLTh0vaQTT2CrXKsLHFv2ZN2V1U=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ounUaAqnP8PIJSsgw0+mKGstKfA=
+			kCY1YtdlaFv4Q/flSHTFqX5aJ0s=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftCoreData.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			l57trXohqXDQyQj1nsVBcC4p/Kg=
+			fg8QnK9kb+1WJWvf7Z9iYz5L9Pg=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8ZckUuXHELuNeJFpM1ny1wdP5yE=
+			/PHUz/puKx/K12JK/cLa4gjOIDU=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bsevQb/FFYpupVsxP/hBVBgdKNc=
+			R8uHO4hAlOv1c7s1w0oN1/tK4+o=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			qjI/2bEwkMqbQrY3ld5ZLuO4Ric=
+			I96FmfM/feqECxvD1sJYToMDelc=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			zuVt7+WKfqdKZfl+TkylMzSHL4Q=
+			VbYEvfpO80De+eO9qURHoXvuHTk=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			A3L2QCvIBtIlAyA3kzTnSrmhIe4=
+			hI6g7GqAxoK6Ry3G+LroKGL5ECA=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftIOKit.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			/A68fYLg0cE8x4ldj9PGLVHsnAc=
+			6pUK89e80l3Fap5vSh8KMjeArEk=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			4hbIs6fk0RLn58/RPcTqSeK9B8Y=
+			5tyk9onujyM8Mk7vMwheTAOp38A=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			gK7Ej41ZOpgjLf7zsLrDYiwOYm4=
+			r1UfhmkrEPnxMxUUJo2LTCxrj1E=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftSwiftOnoneSupport.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			1fYG31JqvIJPTLkG35+G8Ctwu7M=
+			h6QMpf1UlHnDpqTA4L4RUT1QtB0=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftSwiftOnoneSupport" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftSwiftOnoneSupport" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Frameworks/libswiftXPC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			UAnp40VjOZKQm1RpzNJZm4tBv/4=
+			9t4zpieQvJzQuaCOpLqfRhdulI8=
 			</data>
 			<key>requirement</key>
-			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate leaf[subject.CN] = "3rd Party Mac Developer Application: Melissa Ludowise (2J9DN43YH6)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
