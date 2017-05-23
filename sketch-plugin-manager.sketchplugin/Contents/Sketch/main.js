@@ -7,43 +7,19 @@ function run(context, appName, args) {
         pluginFile = context.plugin.url().path()
     args = args || []
 
-    // Check if app is currently running and kill it
-    // terminateApp()
-
     args.concat([
         "-plugin-file", pluginFile,
         "-plugins-dir", pluginsFolder,
         "-auto-reinstall", kAutoReinstall
     ])
 
-    let options = { "NSWorkspaceLaunchConfigurationArguments": args }
-
-    let fileUrl = sketch.resourceNamed("icon.png")
-
-    // return [[NSWorkspace sharedWorkspace] launchApplicationAtURL:appUrl options:NSWorkspaceLaunchDefault configuration:options error:nil]
-    if (NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)) {
-        log("success")
-        return true
-    } else {
-        log("fail")
-        return false
+    try { // Attempt to open app via NSTask
+        NSTask.launchedTaskWithLaunchPath_arguments(appUrl.URLByAppendingPathComponent("Contents/MacOS/" + appName).fileSystemRepresentation(), args)
+    } catch(e) { // Fallback to launchApplication
+        removeQuarentine(appUrl)
+        let options = { "NSWorkspaceLaunchConfigurationArguments": args }
+        NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
     }
-    // return NSWorkspace.sharedWorkspace().openFile_withApplication(fileUrl.fileSystemRepresentation(), appUrl.fileSystemRepresentation())
-    // return NSWorkspace.sharedWorkspace().openURL(NSURL.URLWithString("sketch-plugin-manager://someurl"))
-}
-
-function terminateApp() {
-    let app = [NSRunningApplication runningApplicationsWithBundleIdentifier:kAppBundleID]
-    log(app)
-    log(app.forceTerminate)
-    log(app.terminate)
-    // if (app != undefined) {
-    //     return app.forceTerminate()
-    // }
-}
-
-function checkIfRunning() {
-    let app = [NSRunningApplication runningApplicationsWithBundleIdentifier:identifier];
 }
 
 function getPluginsFolder() {
@@ -54,6 +30,16 @@ function getPluginsFolder() {
         // Falback in case Sketch Library changes
         log(e)
         return "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
+    }
+}
+
+function removeQuarentine(appUrl) {
+    try {
+        NSTask.launchedTaskWithLaunchPath_arguments("/usr/bin/xattr", ["-dr", "com.apple.quarantine", appUrl.fileSystemRepresentation()])
+        return true
+    } catch(e) {
+        log(e)
+        return false
     }
 }
 

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/AppIcon.icns</key>
 		<data>
-		v8otEXqRSjG1gaZ4r5NL/yZ7624=
+		8QyT2DupqAZCwdsJMCWhLeFInaI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		/OCa6439t2P+/amY2kQqzy4keCs=
+		fzXQBooiwXL/2CuXzluPaUTtdMo=
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LJQJIcbNUpHZSosnvkmQjhVqE90=
+			+oISp+Ml6a/8Z/R4s8KDYa7T3U4=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.matthewyork.DateTools" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -36,7 +36,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			7Kgn8oMBnelpvLy3KxHCEhmfPqY=
+			JVY5dTGCxc2cpA/DE6JD0/iWuEs=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.macpaw.GoogleAnalyticsTracker" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			TN0TWtfuqf4IuMn0+UowRhduXVM=
+			IQPEmqH+XGq5Tldh4FqPrIoqMT8=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.melludowise.SketchPluginManagerFramework" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -162,7 +162,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			5tyk9onujyM8Mk7vMwheTAOp38A=
+			iHa/ieaY9bwq9/UfYLY3hHERWoo=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6"</string>
@@ -198,7 +198,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			soz7FKs3OcwG5cN0iwPE/k7j3Pu7l7rZvD/dq+ZMuj0=
+			phuOY1xlX5tUXOEMjpiv6+zTLyBUUtrfWpRm8B9SLLQ=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1Uc67YUCbZUebA7GQvmEp0iwXHWYtP6phOpbgBoz6t4=
+			d3MQaebO405ywPXEi6OpSTwfWYf0NUn/9ikWdVzojc4=
 			</data>
 		</dict>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
@@ -220,13 +220,6 @@
 			<key>hash2</key>
 			<data>
 			C8J9UT6G1Y/eS/74xQvzUBsrusLG5S4/gvVNdUSUIBc=
-			</data>
-		</dict>
-		<key>embedded.provisionprofile</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x9ymK6xojOQfHpBuCHxrQAB0FKG0kbyd3kdUw43yi88=
 			</data>
 		</dict>
 	</dict>
