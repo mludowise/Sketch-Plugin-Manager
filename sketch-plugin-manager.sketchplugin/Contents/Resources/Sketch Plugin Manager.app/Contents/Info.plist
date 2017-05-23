@@ -6,6 +6,8 @@
 	<string>16F73</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleExecutable</key>
 	<string>Sketch Plugin Manager</string>
 	<key>CFBundleIconFile</key>
