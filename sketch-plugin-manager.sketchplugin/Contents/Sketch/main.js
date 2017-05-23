@@ -13,13 +13,8 @@ function run(context, appName, args) {
         "-auto-reinstall", kAutoReinstall
     ])
 
-    try { // Attempt to open app via NSTask
-        NSTask.launchedTaskWithLaunchPath_arguments(appUrl.URLByAppendingPathComponent("Contents/MacOS/" + appName).fileSystemRepresentation(), args)
-    } catch(e) { // Fallback to launchApplication
-        removeQuarentine(appUrl)
-        let options = { "NSWorkspaceLaunchConfigurationArguments": args }
-        NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
-    }
+    let options = { "NSWorkspaceLaunchConfigurationArguments": args }
+    NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
 }
 
 function getPluginsFolder() {
@@ -30,16 +25,6 @@ function getPluginsFolder() {
         // Falback in case Sketch Library changes
         log(e)
         return "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
-    }
-}
-
-function removeQuarentine(appUrl) {
-    try {
-        NSTask.launchedTaskWithLaunchPath_arguments("/usr/bin/xattr", ["-dr", "com.apple.quarantine", appUrl.fileSystemRepresentation()])
-        return true
-    } catch(e) {
-        log(e)
-        return false
     }
 }
 
