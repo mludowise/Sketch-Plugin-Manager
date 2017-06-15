@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		fzXQBooiwXL/2CuXzluPaUTtdMo=
+		boQu1OPw5xFnaIH4FfxxwzA6iOU=
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+oISp+Ml6a/8Z/R4s8KDYa7T3U4=
+			20RNVCREMFj5igcdGmK5Vpfq4iA=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.matthewyork.DateTools" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -36,7 +36,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			JVY5dTGCxc2cpA/DE6JD0/iWuEs=
+			tCC8lulkBV9GDjoSKbk+CGI7Ygk=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.macpaw.GoogleAnalyticsTracker" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			1pP8g7MVwMf0SEPxg+q2WaJgW8E=
+			rWFTXFma371FbEYf6+RhBSf76Bo=
 			</data>
 			<key>requirement</key>
 			<string>anchor apple generic and identifier "com.melludowise.SketchPluginManagerFramework" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "2J9DN43YH6")</string>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3MQaebO405ywPXEi6OpSTwfWYf0NUn/9ikWdVzojc4=
+			XH1bt+Qxot5E5g3CSmrLR5+js0r0VvW++prFY2AAGPU=
 			</data>
 		</dict>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
