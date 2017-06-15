@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		xv8G8U+P6lsUXju0NdHevUIHVXg=
+		CNIXisr0cb2BxLr4P77A1NA82Zg=
 		</data>
 		<key>Resources/Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,43 +14,43 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/5hS-bm-xef-view-q0D-UK-V1H.nib</key>
 		<data>
-		XBeQTOmav85PhJojeEhrHl8fpkA=
+		bvOLyUZC/ewtsZLIazCQ7qS+QTs=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/AboutViewController.nib</key>
 		<data>
-		Uq/JwGfLvTijs5aR/Zx5/HoqCNg=
+		F5vR5xC90T4uyCNt7TgENlyOdp8=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
 		<data>
-		ufzF7ttU8xGpUFiGlvq+xeAsMbk=
+		PV2Ifduw/fhzSTkBrAZ3xkECgwI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		RuzqH/Pv6oJ9bMvzHbHxt6nV/4I=
+		9iMpj2DGO6trdzt2H2EgNXZefUY=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		gJ+suBDnHp9ylf5EAFR0Skic8AI=
+		3jsbWh6Ed7thLZzA0Iwxo7+MI3U=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
 		<data>
-		TMDZgLOx81/NxqXXzAgwNbsMVhk=
+		EvUDAUpRafE+fSrwNm/dYtF+E/s=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/WelcomeWindow.nib</key>
 		<data>
-		7pVUE9BbmnIAtDhxoq1ULlF1VJ8=
+		4On5f5OIJVk9Ga96OV9h0UvywGE=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<data>
-		XlP2GbrB2rEy2hkSSsg71VHdbqM=
+		ispocGPiivk75VGANA2T9ZCghbw=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		scxeTvYxLlaN7Paaq39BLCYzsgA=
+		5s+98veu36MHRIimqw2qrE4uw0c=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<data>
-		pKHzyjp3f2hoaLJdrSs7HdOqnwA=
+		sjKvQsJsVknIOwfyuqeIAiidpsI=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/eB4-Xx-Vpt-view-ZS8-EN-Cof.nib</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/installedView.nib</key>
 		<data>
-		/Wfqfx2r9ySRUoyBMTX+ytWSXD0=
+		7jvlcNBYV69hWcWaK1shAAWyaKQ=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<data>
-		53SrNyreo1RqM0MJB2XvHJ7r+6c=
+		MWUrw7LHgU2qbE8/g2T16xgL7Rs=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		KO50YLFoyfNQLAxuAtD4GW26WQg=
+		1+s9e9c2z8lKHARBJUU1vWqngeM=
 		</data>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.mom</key>
 		<data>
@@ -124,6 +124,15 @@
 		<data>
 		cwnvSw1VOaErp/FPWmYj9iCf+lI=
 		</data>
+		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8qxLvzNy8p0GSx2No9WfhOOXkoc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -248,7 +257,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MP618RL0Nx+m+5rSV8JW+WziqKylQ/0Ji/BTszhOEh8=
+			BFogzRmbqf1dozBAPWYYl7+yKPXIAXmihcKBCv012qc=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Localizable.strings</key>
@@ -262,70 +271,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CodbwFXr/KEQZfZIRKT9vGJM0LAOmarwsrtrv3FAnfc=
+			VRi/dPICSuahq8dh9WvDg/YqY6C1XxCcgwTXS2Z96OI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/AboutViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k/+EkGfVRqPNRgGbBssQpmP3S/MXhCqm/imZg9uEYyM=
+			MCsjValLulJ8O0gCf4yabELv9E3L5U6+YRrDLuhULKA=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fGLvyzg8yKdGr0eTXqCGJHAvphLLmsa2zWdP1lxyIPE=
+			K2qmyUV48dK8gkU5bB+pYbeOvBXRmWtn02W2M+aNh/g=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bKFgEhALigThuXbgxnWP8Hm+0JE37mIdaE7AVS1+Lrc=
+			ngLZa0KnBZmMxh1t6R1vfFgb7FJRQZ2guDDsZRaTNDU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YiumwCRiTvmuLwKOvpP2hyBMg5BVW7aaIc4mquH6DRw=
+			OfvqXThNulomUR8SjxGnHEk4e7VBddqu4JWsUKoCUJU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cn1O1BJWLlbnb8Ite+pNCvHC0W/tUkbvghfzAn2Qb/M=
+			SMLhmaQl6L1rqDM+1sDy0kZRkZVsqHm2JR0Z4Ospfrs=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/WelcomeWindow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6CHKVB9cuWetzl/HSQ2yaXQSBKQfjAaGMdYqyX4+rtM=
+			rr1eo1phHVArcoUu6NSiCVTEDfTzN4WIMmlNsvWGXKY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j/XDZZL65HTTo6rseGElZMqtuNpWhmfOsMJwoXkvawQ=
+			XPmzK0ztL9L3w+4qBf8AYyr0YvtzvBI0CcW47Xnh4Ao=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xxy0sRn1zXaJpKoFH6Vkofyp4qc9Suoq3vne2QrbSOQ=
+			BBAd4tofMRVLXiKG963AR+7wZSOYLwIDInUlSbP3kK0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j0PvG9UTQ3dBOmjlmzkwPp9HfXzhLNBikzqYeHzwpqs=
+			eRNs5sC7kYNjKXF4OJ23Bsaah/Aku0Rkm2OLxIPq2gY=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/eB4-Xx-Vpt-view-ZS8-EN-Cof.nib</key>
@@ -339,14 +348,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			na20vD5P7DsFN9CzdUpublYcpfTv/3C0lxFYuTLF+dA=
+			MtzGx/Us2H2dBWtykJHCiEQbUevnN3moLywmuOIvqPU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1DIcOUDD2qfyC6hpxU4l2FWOR6WPwrXEqfyNRSc/VRU=
+			XmMuGo1GvHD8Njs2X1ur5bK1ImkNkWP/I/28v3qRFkM=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
@@ -360,7 +369,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iytpxe8Lwb08MpJPePtgxynsWOi4dka+xvyzZzsc2BY=
+			4uOElLFQ2+VTyEwLKX+r4iba57QTq2GkvHWqdV9fXhk=
 			</data>
 		</dict>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.mom</key>
@@ -453,6 +462,15 @@
 			<data>
 			C8J9UT6G1Y/eS/74xQvzUBsrusLG5S4/gvVNdUSUIBc=
 			</data>
+		</dict>
+		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VcJy2hVgPn2jLwaZ/jE+u0Wyder3gmA9tFgmci758JQ=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
