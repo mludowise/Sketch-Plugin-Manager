@@ -11,6 +11,7 @@ function showManager(context) {
     debug(function() {
         run(context, kHelperAppName, null)
     })
+    log("end show manager")
 }
 
 function checkForUpdates(context) {
@@ -22,6 +23,7 @@ function checkForUpdates(context) {
         ]
         run(context, kHelperAppName, args)
     })
+    log("end check for updates")
 }
 
 function startup(context) {
@@ -52,4 +54,5 @@ function startup(context) {
 
         run(context, kHelperAppName, args)
     })
+    log("end startup")
 }
