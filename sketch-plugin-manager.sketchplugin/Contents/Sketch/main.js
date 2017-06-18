@@ -1,4 +1,4 @@
-let kAutoReinstall = true
+let kAutoReinstall = false
 
 function run(context, appName, args) {
     let sketch = context.api(),
@@ -19,8 +19,13 @@ function run(context, appName, args) {
 
 function getPluginsFolder() {
     try {
+        let pluginsFolderURL = MSPluginManager.mainPluginsFolderURL()
+        log("Plugins Folder URL: " + pluginsFolderURL)
+        log("URL Class: " + pluginsFolderURL.class())
+        log("Plugins Folder: " + pluginsFolderURL.fileSystemRepresentation())
+
         // Return default plugins folder from Sketch
-        return MSPluginManager.mainPluginsFolderURL().fileSystemRepresentation()
+        return pluginsFolderURL.fileSystemRepresentation()
     } catch(e) {
         // Falback in case Sketch Library changes
         log(e)
