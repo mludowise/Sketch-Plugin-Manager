@@ -1,6 +1,7 @@
 let kAutoReinstall = false
 
 function run(context, appName, args) {
+    log("run")
     let sketch = context.api(),
         appUrl = sketch.resourceNamed(appName + ".app")
         pluginsFolder = getPluginsFolder(),
@@ -15,6 +16,7 @@ function run(context, appName, args) {
 
     let options = { "NSWorkspaceLaunchConfigurationArguments": args }
     NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
+    log("end run")
 }
 
 function getPluginsFolder() {
