@@ -1,7 +1,8 @@
 let kAutoReinstall = false
+let kDebug = true
 
 function run(context, appName, args) {
-    log("run")
+    logInfo("run", true)
 
     if(!hasMinOSXVersion()) {
         return
@@ -21,12 +22,12 @@ function run(context, appName, args) {
 
     let options = { "NSWorkspaceLaunchConfigurationArguments": args }
     NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
-    log("end run")
+    logInfo("end run", true)
 }
 
 function hasMinOSXVersion() {
     let currentVersion = NSProcessInfo.processInfo().operatingSystemVersionString()
-    log("System Version: " + currentVersion)
+    logInfo("System Version: " + currentVersion)
 
     try {
         if (NSAppKitVersionNumber >= NSAppKitVersionNumber10_12) {
@@ -42,15 +43,15 @@ function hasMinOSXVersion() {
 function getPluginsFolder() {
     try {
         let pluginsFolderURL = MSPluginManager.mainPluginsFolderURL()
-        log("Plugins Folder URL: " + pluginsFolderURL)
-        log("URL Class: " + pluginsFolderURL.class())
-        log("Plugins Folder: " + pluginsFolderURL.fileSystemRepresentation())
+        logInfo("Plugins Folder URL: " + pluginsFolderURL, true)
+        logInfo("URL Class: " + pluginsFolderURL.class(), true)
+        logInfo("Plugins Folder: " + pluginsFolderURL.fileSystemRepresentation(), true)
 
         // Return default plugins folder from Sketch
         return pluginsFolderURL.fileSystemRepresentation()
     } catch(e) {
         // Falback in case Sketch Library changes
-        log(e)
+        logInfo(e)
         return "~/Library/Application Support/com.bohemiancoding.sketch3/Plugins/"
     }
 }
@@ -60,7 +61,7 @@ function debug(callback) {
         callback()
     } catch(e) {
 		if (e != null) { // Null error means plugin was exited without error
-			log(e)
+			logInfo(e)
 			alert(e, "Sketch Plugin Manager Error")
 		}
 	}
@@ -70,4 +71,12 @@ function alert(msg, title) {
 	title = title || "Error occurred in Sketch Plugin Manager"
 	var app = NSApplication.sharedApplication()
     app.displayDialog_withTitle(msg, title)
+}
+
+function logInfo(value, debug) {
+    if (debug && !kDebug) {
+        return
+    }
+
+    log(kAppBundleID + ": " + value)
 }
