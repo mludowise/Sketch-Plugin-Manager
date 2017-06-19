@@ -2,6 +2,11 @@ let kAutoReinstall = false
 
 function run(context, appName, args) {
     log("run")
+
+    if(!hasMinOSXVersion()) {
+        return
+    }
+
     let sketch = context.api(),
         appUrl = sketch.resourceNamed(appName + ".app")
         pluginsFolder = getPluginsFolder(),
@@ -17,6 +22,21 @@ function run(context, appName, args) {
     let options = { "NSWorkspaceLaunchConfigurationArguments": args }
     NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
     log("end run")
+}
+
+function hasMinOSXVersion() {
+    let currentVersion = NSProcessInfo.processInfo().operatingSystemVersionString()
+    log("System Version: " + currentVersion)
+
+    try {
+        if (NSAppKitVersionNumber >= NSAppKitVersionNumber10_12) {
+            return true
+        }
+    } catch (e) { }
+
+    alert("Sketch Plugin Manager requires OS X Version 10.12 (Sierra) or higher.\n\nYour system is running " + currentVersion, "Minimum System Requirements")
+
+    return false
 }
 
 function getPluginsFolder() {
