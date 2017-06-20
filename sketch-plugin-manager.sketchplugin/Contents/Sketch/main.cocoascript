@@ -1,7 +1,6 @@
 @import 'main.js'
 
 let kHelperAppName = "Sketch Plugin Manager"
-let kAppBundleID = "com.melludowise.Sketch-Plugin-Manager"
 let kDefaultsSuite = "com.melludowise.Sketch-Plugin-Manager"
 let kDefaultsDontShowOnStartup = "com.melludowise.Sketch-Plugin-Manager.dont-show-on-startup"
 let kDefaultsPreviouslyOpened = "com.melludowise.Sketch-Plugin-Manager.previously-opened"

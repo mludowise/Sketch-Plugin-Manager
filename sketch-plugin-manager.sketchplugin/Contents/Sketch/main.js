@@ -1,5 +1,6 @@
 let kAutoReinstall = false
 let kDebug = true
+let kAppBundleID = "com.melludowise.Sketch-Plugin-Manager"
 
 function run(context, appName, args) {
     logInfo("run", true)
@@ -7,6 +8,8 @@ function run(context, appName, args) {
     if(!hasMinOSXVersion()) {
         return
     }
+
+    checkForRunningApp()
 
     let sketch = context.api(),
         appUrl = sketch.resourceNamed(appName + ".app")
@@ -20,9 +23,22 @@ function run(context, appName, args) {
         "-auto-reinstall", kAutoReinstall
     ])
 
-    let options = { "NSWorkspaceLaunchConfigurationArguments": args }
-    NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
+    let options = NSWorkspaceLaunchDefault | NSWorkspaceLaunchWithErrorPresentation | NSWorkspaceLaunchNewInstance
+    let config = { "NSWorkspaceLaunchConfigurationArguments": args }
+    NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, options, config, null)
     logInfo("end run", true)
+}
+
+function checkForRunningApp() {
+    let runningApp = NSRunningApplication.runningApplicationsWithBundleIdentifier(kAppBundleID).firstObject()
+    if (!runningApp) {
+        return
+    }
+
+    logInfo("Application running: " + runningApp)
+    if (!runningApp.forceTerminate()) {
+        logInfo("Unable to terminate Application")
+    }
 }
 
 function hasMinOSXVersion() {
