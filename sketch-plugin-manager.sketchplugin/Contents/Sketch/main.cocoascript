@@ -7,14 +7,15 @@ let kDefaultsDontShowOnStartup = "com.melludowise.Sketch-Plugin-Manager.dont-sho
 let kDefaultsPreviouslyOpened = "com.melludowise.Sketch-Plugin-Manager.previously-opened"
 
 function showManager(context) {
-    log("show manager")
+    logInfo("show manager")
     debug(function() {
         run(context, kHelperAppName, null)
     })
+    logInfo("end show manager")
 }
 
 function checkForUpdates(context) {
-    log("check for updates")
+    logInfo("check for updates")
     debug(function() {
         let args = [
             "-check-for-updates", "true",
@@ -22,10 +23,11 @@ function checkForUpdates(context) {
         ]
         run(context, kHelperAppName, args)
     })
+    logInfo("end check for updates")
 }
 
 function startup(context) {
-    log("startup")
+    logInfo("startup")
     debug(function() {
 
         // Have to check both suite and standard defaults when migrating from v1.3 to v1.4
@@ -52,4 +54,5 @@ function startup(context) {
 
         run(context, kHelperAppName, args)
     })
+    logInfo("end startup")
 }
