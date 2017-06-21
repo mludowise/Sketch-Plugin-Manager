@@ -17,8 +17,10 @@ function run(context, appName, args) {
     args = args.concat([
         "-plugin-file", pluginFile,
         "-plugins-dir", pluginsFolder,
-        "-auto-reinstall", kAutoReinstall
+        "-auto-reinstall", kAutoReinstall.toString()
     ])
+
+    logInfo("Arguments: " + args, true)
 
     let options = { "NSWorkspaceLaunchConfigurationArguments": args }
     NSWorkspace.sharedWorkspace().launchApplicationAtURL_options_configuration_error(appUrl, NSWorkspaceLaunchDefault, options, null)
