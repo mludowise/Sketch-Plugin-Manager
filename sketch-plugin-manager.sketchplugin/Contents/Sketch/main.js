@@ -14,7 +14,7 @@ function run(context, appName, args) {
         pluginFile = context.plugin.url().path()
     args = args || []
 
-    args.concat([
+    args = args.concat([
         "-plugin-file", pluginFile,
         "-plugins-dir", pluginsFolder,
         "-auto-reinstall", kAutoReinstall

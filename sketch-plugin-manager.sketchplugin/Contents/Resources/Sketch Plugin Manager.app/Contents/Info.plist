@@ -63,7 +63,7 @@
 	<key>LSMinimumSystemVersion</key>
 	<string>10.12</string>
 	<key>LSUIElement</key>
-	<false/>
+	<true/>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2017 Mel Ludowise. All rights reserved.</string>
 	<key>NSMainStoryboardFile</key>
