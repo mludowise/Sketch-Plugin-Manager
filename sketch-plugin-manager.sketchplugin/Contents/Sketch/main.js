@@ -1,5 +1,5 @@
-let kAutoReinstall = false
-let kDebug = true
+let kAutoReinstall = true
+let kDebug = false
 
 function run(context, appName, args) {
     logInfo("run", true)
