@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Assets.car</key>
 		<data>
-		CNIXisr0cb2BxLr4P77A1NA82Zg=
+		wiC8YSFYkWph4An63OYutza603I=
 		</data>
 		<key>Resources/Base.lproj/Localizable.strings</key>
 		<data>
@@ -14,43 +14,43 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/5hS-bm-xef-view-q0D-UK-V1H.nib</key>
 		<data>
-		Emn0Bi+ljnJKHMnfoC7K5L1gc+I=
+		cwXPm/bH+eis08hdTcPh3ie/TqQ=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/AboutViewController.nib</key>
 		<data>
-		HPvKnJKnQD1VGC1XX7DFIoUG8sk=
+		fffO0plYlM6cDNobmbLLgXbrpsg=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
 		<data>
-		XLFleqY1r1yWk67hJIfVqy5h6kg=
+		EWjM4gtIfSbLsl8L7Fu4bUR6Z1A=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		ufQhNorx4HC6eFMzLGpwoLpxqvc=
+		AMvxwu+PwsnVMZN5aKtcK3Hva8g=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<data>
-		rBGsmWVSpJ3AXc2lExJEm2WTwSU=
+		LsltqXqtaYTWbuYDdCMn+dxWcxU=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
 		<data>
-		ASxE1HlFqz+PNN1MqrQCMTFGXS4=
+		kTf7IOwpoAT9xIaWl0VgY5eR91w=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/WelcomeWindow.nib</key>
 		<data>
-		HvaETSZAJrBbQKE+NAaU8m8u+qE=
+		4wcY2zqN/GLn4G3WGOkCpUjCgL0=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<data>
-		lZcaa7Jqvs7/a+yWClh8obtjacI=
+		FfqlXSeik/sLxxd6QjxRO5AINeM=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<data>
-		OIPKG+7enH7oOCRfcmTfjb78XjM=
+		e3ICjGh+V+hgZCCrD1ySMsbHCA8=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<data>
-		ZnrE0Wj5o6UvTTbTHCfEp+alAmQ=
+		e6RrBJ1zJ0aie2uXtHrIHEe1YVg=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/eB4-Xx-Vpt-view-ZS8-EN-Cof.nib</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/installedView.nib</key>
 		<data>
-		k+NGbiOq9hi5Z+vf1b/uoezbkLQ=
+		wrCrIY6ahZl9Exagw4ZGtZsa8D8=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<data>
-		et69VftaHVKmv0WN9gQqN+3h6S8=
+		8P1mfeZoj4TvrvpnietnpJQKZ40=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		HW+1QoQn7SO2VMXlkJIzAad68Zs=
+		jzG3v3WFj4mdToD4ulqa1A1+bb8=
 		</data>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.mom</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Resources/libswiftRemoteMirror.dylib</key>
 		<data>
-		cwnvSw1VOaErp/FPWmYj9iCf+lI=
+		crULNDMnzc0rDmaQBHwL3FGx02o=
 		</data>
 		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
 		<dict>
@@ -140,7 +140,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			nc07D1ji7LWtw+0Us4Xq+iPBOpQ=
+			Y9z4b+ZuyrCciMaBNyK3jHdcbGU=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple</string>
@@ -149,7 +149,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			y+y2ew94Uih6IQ8R8CY5VlchKM4=
+			OtaZgt3VC2xkDkO7rCa7LGNghSs=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple</string>
@@ -158,16 +158,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ErS5v8VpjrA/tMySdErcRltoWn4=
+			F9V89aTwa63IlYCB8siC9LW4KQY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple</string>
+		</dict>
+		<key>Frameworks/libswiftCoreFoundation.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			DWlLiJuP58fRTJP1kw69BG+/AIQ=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftCoreFoundation" and anchor apple</string>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8I5/IH2jX25NNH4OaEU1/r9qT/o=
+			lipoBHRPkmiM3EEtf27to7Gyxpg=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple</string>
@@ -176,7 +185,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			pIhDyxANabFKDiRtFQy+2/VL7cQ=
+			OytrEOynl3bY942OrK17KYgSPBY=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple</string>
@@ -185,7 +194,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bsr5ni51Ry2XSmcDCdqxFKtjOHE=
+			STVkB0mTJ5veTLOVC4+lNNM3dXw=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple</string>
@@ -194,7 +203,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			HCyXkcvlJXdp53D+E3vhJznBcWY=
+			9tqskx6bCFrJ/uMK1nTQHWhLo/s=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple</string>
@@ -203,7 +212,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LI0I41aR0kF8xqi5wtwQh8efGqY=
+			6HICZUDo2q8t6z02XCZ4ONodIMc=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple</string>
@@ -212,16 +221,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			8BAHntji8CjB7DUFeuelcwSd5Jw=
+			vXtwvv8ejuavNq+vRP6TIgWMikM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple</string>
+		</dict>
+		<key>Frameworks/libswiftMetal.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			Xfj31uE/K+zNuZOlEP5SmuL1muw=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftMetal" and anchor apple</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fgNkvY4X2bL4yI4Hg+NKW53JEqw=
+			PSqpCS1WKqQucghIpbgwNRRZRS4=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple</string>
@@ -230,7 +248,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			bzUIdu/rsClYD8KGYiazkm/5S0s=
+			4hSBf1i4nSJ8TWXGd+A7PLr7AHk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple</string>
@@ -239,7 +257,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			fL1ztHpri317SDfNA3LA4rysfec=
+			dRulcCCapAwVgh4+eBUtPqeSROs=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftSwiftOnoneSupport" and anchor apple</string>
@@ -248,16 +266,25 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			lhzcbqCPCPV2BLs/P7zcxxfEA+U=
+			VTPG/Si0BPxJN9Q1bC7VmWyQn6c=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple</string>
+		</dict>
+		<key>Frameworks/libswiftos.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			RsV4im435opCiyNa8RCy6JPYJ08=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftos" and anchor apple</string>
 		</dict>
 		<key>Resources/Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BFogzRmbqf1dozBAPWYYl7+yKPXIAXmihcKBCv012qc=
+			5ja/GiRbiFBkiVjetq6D2Uzn9bwBP99bkgf+YrwddOM=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Localizable.strings</key>
@@ -271,70 +298,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VpGRQyGPa1lOo22I9jyDS2ppjcEuwK3ovr7F2KXZZcg=
+			k07CO/r0bvj8JTygLtI7YyU8toloqv2e/xLE1w8mGjU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/AboutViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J4MVmHlxmxXf99216jrgOnc3WFG3gI5IS5Ud7k3bIJ4=
+			jU9y24Mh+KcyKqluuuUOtoiYbzTJyZNi+IIwenjrPtA=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/GT2-uA-7fE-view-pcZ-zb-UDV.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/hq7pI+DQvBJrLE/8Z83F3iMA9M1eahdQX7ILdgQgSQ=
+			E5ym5VunaCkS7GaY49GoN9n0ncgaNXvqNjuy81zbEn0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xKPcUEGOhBshJXeIAuxgtR3Zt7Olz2LF+H7Zf859tgA=
+			wsOlId0PSly+4/5UXFHJsupjDolPkKjlAO2HThPZzdI=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			t1citO56D2u2CBJN7dPtd9NviXZp7BAxVr7RUDe0AOQ=
+			OmLtsJRKHSCOFPhxo88OfxZUNvYfVoOB5jlGYg5tGZU=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/UpdatesViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			erEUCc2xs005cDSiIazwiswxUiCMXhIrX0qbnLnnix0=
+			84xcEXcgrnA6Oct1JGpYmXCbaJLSWAGBjvIoLr+a+u0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/WelcomeWindow.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TwMI2UZwbkV3Sw3Vhf0/3hTiObuqMj2DxzFitWCIi3w=
+			XeCOS414IAR2d2gaWBwjZ9jDJNjf5e9ubiDWwn1SWjw=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/WindowController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			urkTnvybnjd49FoXU9gFHcbi6F//Vta482E0bE8fOOc=
+			Q5k4gmvUdrWWztk2qJ/TSEO0G6fS36XeYLPwcfque3E=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ghDjXoKTO+3yH+nXJU/up4nD4BU53EignVOl68k9ZXw=
+			1Ck4erSiXQQkd0y6zsx3VdE7+zXcDwV2354fNfMMXOA=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/catalogView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zbv6uF5lvrImsLm5cqUPMwwG3PfUINBojjYSPrC8tms=
+			P6nTD2p0zI5QNiRlzBgjRfmgoY3h+kvk1t6W7gQFWGo=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/eB4-Xx-Vpt-view-ZS8-EN-Cof.nib</key>
@@ -348,14 +375,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ajnOd5k9tnTE7wl7FXXSGg9jpxSIautSZacdmzpMljw=
+			VfHwBHYzcZvJMLs7Xo++CuyHAc+K8tq24gmCZ9A4n58=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/ioD-it-1Zy-view-Gr2-Gn-Ypw.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5bhbDtyURHENwK1tZuxWaB3HfHOtYi4vhZL4JkgBiQ=
+			iErXsp4doKOWfDyhM05qgHR7O3EI+8qDJwV3Iu8i4i0=
 			</data>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/qG8-Cf-EKe-view-8De-FP-E4l.nib</key>
@@ -369,7 +396,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVv/uQ4JzH7R7H/w9EmD7Bi//ULW1NCVw72iDO3iiu8=
+			bVH4cruxSM31Q62aYTX+is/jsC7Nwp7HNUiwqmZ+g5s=
 			</data>
 		</dict>
 		<key>Resources/Sketch Plugin Manager.momd/Sketch Plugin Manager.mom</key>
@@ -460,7 +487,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C8J9UT6G1Y/eS/74xQvzUBsrusLG5S4/gvVNdUSUIBc=
+			A/WCcGNgZhwXa3IwClKsXkYBI0N03KBYYLVYHXHg/Do=
 			</data>
 		</dict>
 		<key>Resources/zh-Hans.lproj/Localizable.strings</key>
