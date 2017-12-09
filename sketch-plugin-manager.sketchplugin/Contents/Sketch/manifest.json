@@ -5,7 +5,7 @@
   "homepage": "https://mludowise.github.io/Sketch-Plugin-Manager",
   "bundleVersion": 1,
   "identifier" : "com.mludowise.sketch-plugin-manager",
-  "version" : "1.6",
+  "version" : "1.7",
   "compatibleVersion": 3,
 
   "commands" : [
